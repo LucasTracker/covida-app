@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.snackbar-alerta {
+  color: #ffffff;
+  --mdc-snackbar-container-color: #de4654;
+  --mat-mdc-snack-bar-button-color: #ffffff;
+}
+
+.snackbar-atencao {
+  color: #ffffff;
+  --mdc-snackbar-container-color: #dab900;
+  --mat-mdc-snack-bar-button-color: #ffffff;
+}
+
+.snackbar-sucesso {
+  color: #ffffff;
+  --mdc-snackbar-container-color: #198754;
+  --mat-mdc-snack-bar-button-color: #ffffff;
+}
+
+.snackbar-erro {
+  color: #ffffff;
+  --mdc-snackbar-container-color: #7d2fc7;
+  --mat-mdc-snack-bar-button-color: #ffffff;
+}
